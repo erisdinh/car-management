@@ -5,6 +5,10 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace QuynhDinh_CarManagement.Model {
+
+    /// <summary>
+    /// Set of car type values
+    /// </summary>
     public enum CarType {
         Hatchback, Sedan, MPV
     }
