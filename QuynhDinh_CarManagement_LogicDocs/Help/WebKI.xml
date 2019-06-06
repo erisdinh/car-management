@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpKI>
+  <HelpKINode Title="AddCar method" Url="html/d8ad5aa1-15a9-a6ab-8252-0a489c1559a7.htm" />
+  <HelpKINode Title="Address property" Url="html/4e33c3c4-c035-f0b4-8757-987232aa01f1.htm" />
+  <HelpKINode Title="BusinessNumber property" Url="html/e5649314-fad5-8c67-d39b-d1e382709ff8.htm" />
+  <HelpKINode Title="Car class">
+    <HelpKINode Title="Car Class" Url="html/65826c43-3a5e-265d-d047-31177b4a204a.htm" />
+    <HelpKINode Title="constructor" Url="html/6f8bfd4b-64e7-7831-fd05-3a2ddbdd00f4.htm" />
+    <HelpKINode Title="methods" Url="html/20a8bb09-1c94-9969-fc9d-7c123a6d5f43.htm" />
+    <HelpKINode Title="properties" Url="html/a1839d6e-b182-3a54-2d5d-e9b8159c2bb3.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Car.Car constructor" Url="html/6f8bfd4b-64e7-7831-fd05-3a2ddbdd00f4.htm" />
+  <HelpKINode Title="Car.CarType property" Url="html/22ddc992-155f-4bb6-f2d7-de19a16ef3c2.htm" />
+  <HelpKINode Title="Car.LicensePlateNo property" Url="html/1909fb2c-1a02-0f61-595a-c62e7e2c2c0b.htm" />
+  <HelpKINode Title="Car.Make property" Url="html/87f55bac-c426-17c0-9e16-f7499ce9f0ea.htm" />
+  <HelpKINode Title="Car.PurchasePrice property" Url="html/deed4f70-8dd8-6973-6fd4-662815515a72.htm" />
+  <HelpKINode Title="Cars property" Url="html/4fe1ee05-072d-8fcd-cf85-c1cfe8d039d9.htm" />
+  <HelpKINode Title="CarType enumeration" Url="html/cd37e1ac-d2f6-f740-d00e-a25946d7968b.htm" />
+  <HelpKINode Title="CarType property" Url="html/22ddc992-155f-4bb6-f2d7-de19a16ef3c2.htm" />
+  <HelpKINode Title="Dealership class">
+    <HelpKINode Title="Dealership Class" Url="html/aa2ec1dc-8b96-9da1-2586-adfb2d9ea57c.htm" />
+    <HelpKINode Title="constructor" Url="html/4db9409a-a22d-0029-a0db-5b4dd2d3fdf6.htm" />
+    <HelpKINode Title="methods" Url="html/34496220-8b29-c28e-e09c-a3e01c27c848.htm" />
+    <HelpKINode Title="properties" Url="html/7243d6e9-20d0-9289-5ab9-3d974c7d6d2f.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Dealership.AddCar method" Url="html/d8ad5aa1-15a9-a6ab-8252-0a489c1559a7.htm" />
+  <HelpKINode Title="Dealership.Address property" Url="html/4e33c3c4-c035-f0b4-8757-987232aa01f1.htm" />
+  <HelpKINode Title="Dealership.BusinessNumber property" Url="html/e5649314-fad5-8c67-d39b-d1e382709ff8.htm" />
+  <HelpKINode Title="Dealership.Cars property" Url="html/4fe1ee05-072d-8fcd-cf85-c1cfe8d039d9.htm" />
+  <HelpKINode Title="Dealership.Dealership constructor" Url="html/4db9409a-a22d-0029-a0db-5b4dd2d3fdf6.htm" />
+  <HelpKINode Title="Dealership.Email property" Url="html/1adc43e1-7949-8835-2f4f-e1b273a663f1.htm" />
+  <HelpKINode Title="Dealership.FindCarByLicensePlateNo method" Url="html/ed10599a-d128-3060-abe4-017442ee880a.htm" />
+  <HelpKINode Title="Dealership.Name property" Url="html/9fda3bf2-4005-f7ac-37bd-e4d23229c970.htm" />
+  <HelpKINode Title="Dealership.Phone property" Url="html/28999285-3676-1b74-49a6-2944db7fa71f.htm" />
+  <HelpKINode Title="Email property" Url="html/1adc43e1-7949-8835-2f4f-e1b273a663f1.htm" />
+  <HelpKINode Title="FindCarByLicensePlateNo method" Url="html/ed10599a-d128-3060-abe4-017442ee880a.htm" />
+  <HelpKINode Title="Hatchback enumeration member" Url="html/cd37e1ac-d2f6-f740-d00e-a25946d7968b.htm" />
+  <HelpKINode Title="InsuranceDepreciation property" Url="html/0be3cc71-8470-6e13-f8af-9aa6b0b349a3.htm" />
+  <HelpKINode Title="LicensePlateNo property" Url="html/1909fb2c-1a02-0f61-595a-c62e7e2c2c0b.htm" />
+  <HelpKINode Title="Make property" Url="html/87f55bac-c426-17c0-9e16-f7499ce9f0ea.htm" />
+  <HelpKINode Title="Mileage property" Url="html/453b9396-683d-238a-9529-77c61bced126.htm" />
+  <HelpKINode Title="Model property" Url="html/4d9d1eb9-f920-969d-97d2-f648e61c98b5.htm" />
+  <HelpKINode Title="MPV enumeration member" Url="html/cd37e1ac-d2f6-f740-d00e-a25946d7968b.htm" />
+  <HelpKINode Title="Name property" Url="html/9fda3bf2-4005-f7ac-37bd-e4d23229c970.htm" />
+  <HelpKINode Title="NewCar class">
+    <HelpKINode Title="NewCar Class" Url="html/b1c7cd2e-492b-6155-e2a3-584ffb06b653.htm" />
+    <HelpKINode Title="constructor" Url="html/357f47f0-cac7-c8b3-9da1-255a092c384f.htm" />
+    <HelpKINode Title="methods" Url="html/467e51fd-1078-4bce-ff6f-aa95626be18c.htm" />
+    <HelpKINode Title="properties" Url="html/3c84a638-d75f-df00-335a-cecd85b5bf0b.htm" />
+  </HelpKINode>
+  <HelpKINode Title="NewCar.NewCar constructor" Url="html/357f47f0-cac7-c8b3-9da1-255a092c384f.htm" />
+  <HelpKINode Title="Phone property" Url="html/28999285-3676-1b74-49a6-2944db7fa71f.htm" />
+  <HelpKINode Title="PurchasePrice property" Url="html/deed4f70-8dd8-6973-6fd4-662815515a72.htm" />
+  <HelpKINode Title="QuynhDinh_CarManagement.Model namespace" Url="html/c49f15e8-88c5-c90d-c1f8-ba38aa6c13f9.htm" />
+  <HelpKINode Title="QuynhDinh_CarManagement.Model.Car class" Url="html/65826c43-3a5e-265d-d047-31177b4a204a.htm" />
+  <HelpKINode Title="QuynhDinh_CarManagement.Model.CarType enumeration" Url="html/cd37e1ac-d2f6-f740-d00e-a25946d7968b.htm" />
+  <HelpKINode Title="QuynhDinh_CarManagement.Model.Dealership class" Url="html/aa2ec1dc-8b96-9da1-2586-adfb2d9ea57c.htm" />
+  <HelpKINode Title="QuynhDinh_CarManagement.Model.NewCar class" Url="html/b1c7cd2e-492b-6155-e2a3-584ffb06b653.htm" />
+  <HelpKINode Title="QuynhDinh_CarManagement.Model.UsedCar class" Url="html/e9742fb4-36c9-ee23-501c-55dd7854b1e2.htm" />
+  <HelpKINode Title="Sedan enumeration member" Url="html/cd37e1ac-d2f6-f740-d00e-a25946d7968b.htm" />
+  <HelpKINode Title="TotalDepreciation property" Url="html/23a51e6a-bae0-6fed-d8b4-a7e52daf8d8c.htm" />
+  <HelpKINode Title="UsedCar class">
+    <HelpKINode Title="UsedCar Class" Url="html/e9742fb4-36c9-ee23-501c-55dd7854b1e2.htm" />
+    <HelpKINode Title="constructor" Url="html/f11ed0dd-f2a4-6431-48cc-e2966388eefe.htm" />
+    <HelpKINode Title="methods" Url="html/00720ec3-f105-5855-f00f-a9e6b0cb6a8c.htm" />
+    <HelpKINode Title="properties" Url="html/006b36cc-f83c-59c1-36e3-27b3444f9658.htm" />
+  </HelpKINode>
+  <HelpKINode Title="UsedCar.InsuranceDepreciation property" Url="html/0be3cc71-8470-6e13-f8af-9aa6b0b349a3.htm" />
+  <HelpKINode Title="UsedCar.Mileage property" Url="html/453b9396-683d-238a-9529-77c61bced126.htm" />
+  <HelpKINode Title="UsedCar.Model property" Url="html/4d9d1eb9-f920-969d-97d2-f648e61c98b5.htm" />
+  <HelpKINode Title="UsedCar.TotalDepreciation property" Url="html/23a51e6a-bae0-6fed-d8b4-a7e52daf8d8c.htm" />
+  <HelpKINode Title="UsedCar.UsedCar constructor" Url="html/f11ed0dd-f2a4-6431-48cc-e2966388eefe.htm" />
+  <HelpKINode Title="version">
+    <HelpKINode Title="1.0.0.0" Url="html/97c838b7-3379-4647-ba56-6523c9ee9157.htm" />
+    <HelpKINode Title="history" Url="html/ee5b74d2-ace4-44f7-9a84-473697adaf41.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Welcome" Url="html/77e88551-1926-43d8-86a7-47b9cfc9ac0e.htm" />
+</HelpKI>

@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.28803.452
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuynhDinh_CarManagement", "QuynhDinh_CarManagement.csproj", "{A300D477-230A-4FBE-AA65-4CEC6628396A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuynhDinh_BusinessLogic", "..\QuynhDinh_BusinessLogic\QuynhDinh_BusinessLogic.csproj", "{4A47334E-93F3-4EA1-8446-26E558AFE358}"
+EndProject
+Project("{7CF6DF6D-3B04-46F8-A40B-537D21BCA0B4}") = "QuynhDinh_CarManagement_LogicDocs", "..\QuynhDinh_CarManagement_LogicDocs\QuynhDinh_CarManagement_LogicDocs.shfbproj", "{A7A6D976-4A42-42E9-A3D1-56B45D31303A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{A300D477-230A-4FBE-AA65-4CEC6628396A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A300D477-230A-4FBE-AA65-4CEC6628396A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A300D477-230A-4FBE-AA65-4CEC6628396A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A47334E-93F3-4EA1-8446-26E558AFE358}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A47334E-93F3-4EA1-8446-26E558AFE358}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A47334E-93F3-4EA1-8446-26E558AFE358}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A47334E-93F3-4EA1-8446-26E558AFE358}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7A6D976-4A42-42E9-A3D1-56B45D31303A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7A6D976-4A42-42E9-A3D1-56B45D31303A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7A6D976-4A42-42E9-A3D1-56B45D31303A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7A6D976-4A42-42E9-A3D1-56B45D31303A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
