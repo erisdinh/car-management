@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace QuynhDinh_CarManagement.Model {
+namespace QuynhDinh_BusinessLogic.Model {
 
     /// <summary>
     /// Dealership object that represents for the Dealership
@@ -141,7 +141,12 @@ namespace QuynhDinh_CarManagement.Model {
                 if (isNew) {
                     car = new NewCar(licensePlateNo, make, carType, purchasePrice);
                 } else {
-                    car = new UsedCar(licensePlateNo, make, carType, purchasePrice, model, mileage, insuranceDep);
+                    int _curentYear = DateTime.Now.Year;
+                    if ((_curentYear - model) <= 5 && mileage > 500000) {
+                        car = new UsedCar(licensePlateNo, make, carType, purchasePrice, model, mileage, insuranceDep);
+                    } else {
+                        throw new Exception("We cannot accept cars that are more than 5 yearas or have a mileage > 500,000Km!");
+                    }
                 }
                 _cars.Add(car);
             } else {

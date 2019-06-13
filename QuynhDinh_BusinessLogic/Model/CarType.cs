@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace QuynhDinh_CarManagement.Model {
+namespace QuynhDinh_BusinessLogic.Model {
 
     /// <summary>
     /// Set of car type values

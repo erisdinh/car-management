@@ -4,13 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace QuynhDinh_CarManagement.Model {
+namespace QuynhDinh_BusinessLogic.Model {
 
     /// <summary>
     /// Used car object that represents for the used car
     /// </summary>
     public class UsedCar : Car {
-        private int _curentYear = DateTime.Now.Year;
         private int _model;
         private int _mileage;
         private float _insuranceDepreciation;
@@ -63,6 +62,7 @@ namespace QuynhDinh_CarManagement.Model {
         /// </summary>
         public float TotalDepreciation {
             get {
+                int _curentYear = DateTime.Now.Year;
                 int yearDifference = _curentYear - Model;
                 float yearDepreciation = yearDifference * 0.1f;
                 float mileageDepreciation = Mileage * 0.009f;
@@ -83,14 +83,6 @@ namespace QuynhDinh_CarManagement.Model {
         /// <param name="insuranceDepreciation">Serves as insurance depreciation parameter for used car object</param>
         public UsedCar(string licensePlateNo, string make, CarType carType, float purchasePrice, int model, int mileage, float insuranceDepreciation)
             : base(licensePlateNo, make, carType, purchasePrice) {
-
-            if ((_curentYear - model) <= 5 && mileage > 500000) {
-                Model = model;
-                Mileage = mileage;
-                InsuranceDepreciation = insuranceDepreciation;
-            } else {
-                throw new Exception("We cannot accept cars that are more than 5 yearas or have a mileage > 500,000Km!");
-            }
         }
     }
 }
