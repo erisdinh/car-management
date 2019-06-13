@@ -72,6 +72,7 @@
             this.btnViewReport.TabIndex = 3;
             this.btnViewReport.Text = "View Report";
             this.btnViewReport.UseVisualStyleBackColor = true;
+            this.btnViewReport.Click += new System.EventHandler(this.BtnViewReport_Click);
             // 
             // Dashboard
             // 

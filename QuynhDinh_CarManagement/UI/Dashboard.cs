@@ -28,5 +28,10 @@ namespace QuynhDinh_CarManagement.UI {
             DealershipForm dealershipForm = new DealershipForm(_dealership);
             dealershipForm.ShowDialog();
         }
+
+        private void BtnViewReport_Click(object sender, EventArgs e) {
+            ReportForm reportForm = new ReportForm(_dealership);
+            reportForm.ShowDialog();
+        }
     }
 }

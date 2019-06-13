@@ -103,7 +103,6 @@
             this.tbPhone.Name = "tbPhone";
             this.tbPhone.Size = new System.Drawing.Size(260, 26);
             this.tbPhone.TabIndex = 6;
-            this.tbPhone.Text = "eale";
             // 
             // label4
             // 
