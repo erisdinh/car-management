@@ -21,17 +21,19 @@ namespace QuynhDinh_CarManagement.UI {
 
         private void DealershipForm_Load(object sender, EventArgs e) {
             lblName.Text = _dealership.Name;
-            lblBusinessNumber.Text = _dealership.BusinessNumber;
+            txtBusinessNo.Text = _dealership.BusinessNumber;
             txtPhone.Text = _dealership.Phone.ToString();
             txtEmail.Text = _dealership.Email;
             txtAddress.Text = _dealership.Address;
 
+            txtBusinessNo.Enabled = false;
             txtPhone.Enabled = false;
             txtEmail.Enabled = false;
             txtAddress.Enabled = false;
         }
 
         private void BtnEdit_Click(object sender, EventArgs e) {
+            txtBusinessNo.Enabled = true;
             txtPhone.Enabled = true;
             txtEmail.Enabled = true;
             txtAddress.Enabled = true;
@@ -45,10 +47,12 @@ namespace QuynhDinh_CarManagement.UI {
                 this.Hide();
             } else {
                 try {
+                    _dealership.BusinessNumber = txtBusinessNo.Text;
                     _dealership.Phone = Convert.ToInt32(txtPhone.Text);
                     _dealership.Email = txtEmail.Text;
                     _dealership.Address = txtAddress.Text;
 
+                    txtBusinessNo.Enabled = false;
                     txtPhone.Enabled = false;
                     txtEmail.Enabled = false;
                     txtAddress.Enabled = false;

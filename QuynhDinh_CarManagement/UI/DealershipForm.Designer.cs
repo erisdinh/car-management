@@ -25,7 +25,6 @@
         private void InitializeComponent() {
             this.lblName = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.lblBusinessNumber = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.txtAddress = new System.Windows.Forms.RichTextBox();
             this.label2 = new System.Windows.Forms.Label();
@@ -34,6 +33,7 @@
             this.txtEmail = new System.Windows.Forms.TextBox();
             this.btnEdit = new System.Windows.Forms.Button();
             this.btnOK = new System.Windows.Forms.Button();
+            this.txtBusinessNo = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // lblName
@@ -57,18 +57,6 @@
             this.label1.Size = new System.Drawing.Size(126, 18);
             this.label1.TabIndex = 1;
             this.label1.Text = "Business Number";
-            // 
-            // lblBusinessNumber
-            // 
-            this.lblBusinessNumber.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.lblBusinessNumber.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblBusinessNumber.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblBusinessNumber.Location = new System.Drawing.Point(168, 135);
-            this.lblBusinessNumber.Name = "lblBusinessNumber";
-            this.lblBusinessNumber.Size = new System.Drawing.Size(326, 23);
-            this.lblBusinessNumber.TabIndex = 2;
-            this.lblBusinessNumber.Text = "BusinessNumber";
-            this.lblBusinessNumber.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // label3
             // 
@@ -150,11 +138,20 @@
             this.btnOK.UseVisualStyleBackColor = true;
             this.btnOK.Click += new System.EventHandler(this.BtnOK_Click);
             // 
+            // txtBusinessNo
+            // 
+            this.txtBusinessNo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtBusinessNo.Location = new System.Drawing.Point(172, 134);
+            this.txtBusinessNo.Name = "txtBusinessNo";
+            this.txtBusinessNo.Size = new System.Drawing.Size(322, 26);
+            this.txtBusinessNo.TabIndex = 11;
+            // 
             // DealershipForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(534, 511);
+            this.Controls.Add(this.txtBusinessNo);
             this.Controls.Add(this.btnOK);
             this.Controls.Add(this.btnEdit);
             this.Controls.Add(this.txtEmail);
@@ -163,7 +160,6 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.txtAddress);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.lblBusinessNumber);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.lblName);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
@@ -182,7 +178,6 @@
 
         private System.Windows.Forms.Label lblName;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label lblBusinessNumber;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.RichTextBox txtAddress;
         private System.Windows.Forms.Label label2;
@@ -191,6 +186,7 @@
         private System.Windows.Forms.TextBox txtEmail;
         private System.Windows.Forms.Button btnEdit;
         private System.Windows.Forms.Button btnOK;
+        private System.Windows.Forms.TextBox txtBusinessNo;
     }
 }
 

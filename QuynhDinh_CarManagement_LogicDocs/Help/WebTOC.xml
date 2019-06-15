@@ -2,13 +2,13 @@
 <HelpTOC>
 
   <HelpTOCNode Title="Car Management" Url="html/77e88551-1926-43d8-86a7-47b9cfc9ac0e.htm" />
-  <HelpTOCNode Id="6d0620d2-859b-40b4-a529-0eb1a032acf8" Title="Version History" Url="html/ee5b74d2-ace4-44f7-9a84-473697adaf41.htm">
+  <HelpTOCNode Id="65915fa3-179d-4310-b089-527cca280f52" Title="Version History" Url="html/ee5b74d2-ace4-44f7-9a84-473697adaf41.htm">
     <HelpTOCNode Title="Version 1.0.0.0" Url="html/97c838b7-3379-4647-ba56-6523c9ee9157.htm" />
   </HelpTOCNode>
-  <HelpTOCNode Id="a8d1f078-5728-4a9c-9f6a-9ec4f7b1b85c" Title="QuynhDinh_BusinessLogic.Model" Url="html/6e82a99a-e221-0ccf-7912-f2acf9b81ae0.htm">
-    <HelpTOCNode Id="cc03eb49-8209-4dac-9642-230b56526598" Title="Car Class" Url="html/b6fb4bac-ab37-2066-cf7a-8af8af92213a.htm">
+  <HelpTOCNode Id="50f11914-d8d8-40a0-aa46-33aeb83c3af7" Title="QuynhDinh_BusinessLogic.Model" Url="html/6e82a99a-e221-0ccf-7912-f2acf9b81ae0.htm">
+    <HelpTOCNode Id="edefc06c-a6b6-4422-b485-1539f713e770" Title="Car Class" Url="html/b6fb4bac-ab37-2066-cf7a-8af8af92213a.htm">
       <HelpTOCNode Title="Car Constructor " Url="html/71f0964f-71aa-5c44-9070-56f364ace248.htm" />
-      <HelpTOCNode Id="6ab29d6a-5dd0-4ecb-912e-65b87d12ef8c" Title="Car Properties" Url="html/9d070f3f-e9d4-165d-7c2f-507457a57156.htm">
+      <HelpTOCNode Id="9322fcd7-3bfe-43ff-8315-a4392b000314" Title="Car Properties" Url="html/9d070f3f-e9d4-165d-7c2f-507457a57156.htm">
         <HelpTOCNode Title="CarType Property " Url="html/56f9f5ca-3581-d3df-7626-d1c79cabf2c1.htm" />
         <HelpTOCNode Title="LicensePlateNo Property " Url="html/b688ed90-1f60-2220-f8bf-0a847ebda081.htm" />
         <HelpTOCNode Title="Make Property " Url="html/fa40dbbb-4741-3202-2227-81257662ae27.htm" />
@@ -17,9 +17,9 @@
       <HelpTOCNode Title="Car Methods" Url="html/53499e97-da26-4b8a-d040-8711657c0047.htm" />
     </HelpTOCNode>
     <HelpTOCNode Title="CarType Enumeration" Url="html/f840ea4c-e4c4-fca6-5143-d542227a94b1.htm" />
-    <HelpTOCNode Id="c670605b-7943-4beb-ac3f-f70f79d36bed" Title="Dealership Class" Url="html/27fac41c-6296-c2dd-3b37-642bb47b63c7.htm">
+    <HelpTOCNode Id="c8f80f16-0424-4455-914d-2603482aec75" Title="Dealership Class" Url="html/27fac41c-6296-c2dd-3b37-642bb47b63c7.htm">
       <HelpTOCNode Title="Dealership Constructor " Url="html/6aa0e43d-e8d9-2e34-74d2-b5d25c87f3c1.htm" />
-      <HelpTOCNode Id="0f7b2fb1-e664-4d42-b38b-b0eca0f8ecae" Title="Dealership Properties" Url="html/848c08f9-5c12-047c-b144-8c20c9a473fc.htm">
+      <HelpTOCNode Id="bfa4215f-d3d6-45a4-8a09-212ffd4b0bf3" Title="Dealership Properties" Url="html/848c08f9-5c12-047c-b144-8c20c9a473fc.htm">
         <HelpTOCNode Title="Address Property " Url="html/a1790907-2bff-5037-5318-691a8d3c8b1e.htm" />
         <HelpTOCNode Title="BusinessNumber Property " Url="html/534521be-cbca-a5c5-af62-a8235c37b7cf.htm" />
         <HelpTOCNode Title="Cars Property " Url="html/fcfdfcca-7e45-9a7d-6f7a-8e2ecd5c61fc.htm" />
@@ -27,20 +27,20 @@
         <HelpTOCNode Title="Name Property " Url="html/b00318c0-719b-c623-5d19-adc10eedfe0e.htm" />
         <HelpTOCNode Title="Phone Property " Url="html/2139b2b7-8316-0384-ad64-b520ee8d3bd2.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="0f8f34a7-8f45-4ca8-ba88-029fca80bc16" Title="Dealership Methods" Url="html/0777c086-81c1-23b5-98d0-c6d0db6e47bd.htm">
+      <HelpTOCNode Id="7d299719-fce4-4039-9389-ae08c21c6366" Title="Dealership Methods" Url="html/0777c086-81c1-23b5-98d0-c6d0db6e47bd.htm">
         <HelpTOCNode Title="AddCar Method " Url="html/57751b76-0b36-e4e4-82d2-0a5ff9fd51fb.htm" />
         <HelpTOCNode Title="FindCarByLicensePlateNo Method " Url="html/9fe6fe07-8d4c-4401-77e6-628010235bdb.htm" />
         <HelpTOCNode Title="GetCarsByCarType Method " Url="html/6328799e-cdee-c6a9-fe4e-ae764ac0e0af.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="dd511844-7b5b-4158-939e-e3ab937f3c71" Title="NewCar Class" Url="html/e2b3c874-fe14-edeb-6afb-da00f905d7b8.htm">
+    <HelpTOCNode Id="b58a9bf7-6792-42a7-955f-10cf56b01844" Title="NewCar Class" Url="html/e2b3c874-fe14-edeb-6afb-da00f905d7b8.htm">
       <HelpTOCNode Title="NewCar Constructor " Url="html/2fab2181-b3e6-a59b-050a-9b436644e6a9.htm" />
       <HelpTOCNode Title="NewCar Properties" Url="html/82d360a4-e3e6-3749-e417-b34347425950.htm" />
       <HelpTOCNode Title="NewCar Methods" Url="html/eefb2217-4fc3-ada7-8e2c-1f9a13f117fb.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="e8669b99-6397-42b6-af6a-59cec021315a" Title="UsedCar Class" Url="html/c32f714f-8d01-5539-b763-da1381fb583c.htm">
+    <HelpTOCNode Id="6c998e9e-9b06-4fcd-a04c-2ef8577cb0de" Title="UsedCar Class" Url="html/c32f714f-8d01-5539-b763-da1381fb583c.htm">
       <HelpTOCNode Title="UsedCar Constructor " Url="html/59211efd-bf0c-faac-de6a-b4382be716fe.htm" />
-      <HelpTOCNode Id="8d41fcf1-a750-4472-b35d-6fb52811aba5" Title="UsedCar Properties" Url="html/04053be7-c7ab-0114-7a22-05f10789becd.htm">
+      <HelpTOCNode Id="00b20a18-cce6-4778-acf3-9c10e3df512b" Title="UsedCar Properties" Url="html/04053be7-c7ab-0114-7a22-05f10789becd.htm">
         <HelpTOCNode Title="InsuranceDepreciation Property " Url="html/3785031b-4d64-de4d-55f1-f5039d4718f3.htm" />
         <HelpTOCNode Title="Mileage Property " Url="html/d35b0824-41f7-290c-68ca-f3712a1e38dc.htm" />
         <HelpTOCNode Title="Model Property " Url="html/988332dd-d498-4ee5-e3c9-cff7935dd17b.htm" />
