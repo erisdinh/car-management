@@ -24,24 +24,24 @@
         /// </summary>
         private void InitializeComponent() {
             this.label1 = new System.Windows.Forms.Label();
-            this.tbLicensePlate = new System.Windows.Forms.TextBox();
+            this.txtLicensePlate = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.cbCarType = new System.Windows.Forms.ComboBox();
+            this.cmbCarType = new System.Windows.Forms.ComboBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.tbMake = new System.Windows.Forms.TextBox();
+            this.txtMake = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.tbPurchasePrice = new System.Windows.Forms.TextBox();
-            this.pnOldCar = new System.Windows.Forms.Panel();
-            this.tbInsuranceDepreciation = new System.Windows.Forms.TextBox();
+            this.txtPurchasePrice = new System.Windows.Forms.TextBox();
+            this.pnlOldCar = new System.Windows.Forms.Panel();
+            this.txtInsuranceDepreciation = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
-            this.tbMileage = new System.Windows.Forms.TextBox();
+            this.txtMileage = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
-            this.tbModel = new System.Windows.Forms.TextBox();
+            this.txtModel = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.chbxIsNew = new System.Windows.Forms.CheckBox();
+            this.ckbtnIsNew = new System.Windows.Forms.CheckBox();
             this.btnAddRecord = new System.Windows.Forms.Button();
             this.btnViewAll = new System.Windows.Forms.Button();
-            this.pnOldCar.SuspendLayout();
+            this.pnlOldCar.SuspendLayout();
             this.SuspendLayout();
             // 
             // label1
@@ -53,13 +53,13 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "License Plate No.";
             // 
-            // tbLicensePlate
+            // txtLicensePlate
             // 
-            this.tbLicensePlate.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbLicensePlate.Location = new System.Drawing.Point(142, 14);
-            this.tbLicensePlate.Name = "tbLicensePlate";
-            this.tbLicensePlate.Size = new System.Drawing.Size(228, 26);
-            this.tbLicensePlate.TabIndex = 1;
+            this.txtLicensePlate.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtLicensePlate.Location = new System.Drawing.Point(142, 14);
+            this.txtLicensePlate.Name = "txtLicensePlate";
+            this.txtLicensePlate.Size = new System.Drawing.Size(228, 26);
+            this.txtLicensePlate.TabIndex = 1;
             // 
             // label2
             // 
@@ -70,14 +70,14 @@
             this.label2.TabIndex = 2;
             this.label2.Text = "Car Type";
             // 
-            // cbCarType
+            // cmbCarType
             // 
-            this.cbCarType.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cbCarType.FormattingEnabled = true;
-            this.cbCarType.Location = new System.Drawing.Point(142, 62);
-            this.cbCarType.Name = "cbCarType";
-            this.cbCarType.Size = new System.Drawing.Size(228, 28);
-            this.cbCarType.TabIndex = 3;
+            this.cmbCarType.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmbCarType.FormattingEnabled = true;
+            this.cmbCarType.Location = new System.Drawing.Point(142, 62);
+            this.cmbCarType.Name = "cmbCarType";
+            this.cmbCarType.Size = new System.Drawing.Size(228, 28);
+            this.cmbCarType.TabIndex = 3;
             // 
             // label3
             // 
@@ -88,13 +88,13 @@
             this.label3.TabIndex = 4;
             this.label3.Text = "Make";
             // 
-            // tbMake
+            // txtMake
             // 
-            this.tbMake.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbMake.Location = new System.Drawing.Point(567, 14);
-            this.tbMake.Name = "tbMake";
-            this.tbMake.Size = new System.Drawing.Size(228, 26);
-            this.tbMake.TabIndex = 5;
+            this.txtMake.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtMake.Location = new System.Drawing.Point(567, 14);
+            this.txtMake.Name = "txtMake";
+            this.txtMake.Size = new System.Drawing.Size(228, 26);
+            this.txtMake.TabIndex = 5;
             // 
             // label4
             // 
@@ -105,34 +105,34 @@
             this.label4.TabIndex = 6;
             this.label4.Text = "Purchase Price";
             // 
-            // tbPurchasePrice
+            // txtPurchasePrice
             // 
-            this.tbPurchasePrice.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbPurchasePrice.Location = new System.Drawing.Point(567, 62);
-            this.tbPurchasePrice.Name = "tbPurchasePrice";
-            this.tbPurchasePrice.Size = new System.Drawing.Size(228, 26);
-            this.tbPurchasePrice.TabIndex = 7;
+            this.txtPurchasePrice.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtPurchasePrice.Location = new System.Drawing.Point(567, 62);
+            this.txtPurchasePrice.Name = "txtPurchasePrice";
+            this.txtPurchasePrice.Size = new System.Drawing.Size(228, 26);
+            this.txtPurchasePrice.TabIndex = 7;
             // 
-            // pnOldCar
+            // pnlOldCar
             // 
-            this.pnOldCar.Controls.Add(this.tbInsuranceDepreciation);
-            this.pnOldCar.Controls.Add(this.label7);
-            this.pnOldCar.Controls.Add(this.tbMileage);
-            this.pnOldCar.Controls.Add(this.label6);
-            this.pnOldCar.Controls.Add(this.tbModel);
-            this.pnOldCar.Controls.Add(this.label5);
-            this.pnOldCar.Location = new System.Drawing.Point(142, 156);
-            this.pnOldCar.Name = "pnOldCar";
-            this.pnOldCar.Size = new System.Drawing.Size(519, 177);
-            this.pnOldCar.TabIndex = 8;
+            this.pnlOldCar.Controls.Add(this.txtInsuranceDepreciation);
+            this.pnlOldCar.Controls.Add(this.label7);
+            this.pnlOldCar.Controls.Add(this.txtMileage);
+            this.pnlOldCar.Controls.Add(this.label6);
+            this.pnlOldCar.Controls.Add(this.txtModel);
+            this.pnlOldCar.Controls.Add(this.label5);
+            this.pnlOldCar.Location = new System.Drawing.Point(142, 156);
+            this.pnlOldCar.Name = "pnlOldCar";
+            this.pnlOldCar.Size = new System.Drawing.Size(519, 177);
+            this.pnlOldCar.TabIndex = 8;
             // 
-            // tbInsuranceDepreciation
+            // txtInsuranceDepreciation
             // 
-            this.tbInsuranceDepreciation.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbInsuranceDepreciation.Location = new System.Drawing.Point(229, 121);
-            this.tbInsuranceDepreciation.Name = "tbInsuranceDepreciation";
-            this.tbInsuranceDepreciation.Size = new System.Drawing.Size(210, 26);
-            this.tbInsuranceDepreciation.TabIndex = 14;
+            this.txtInsuranceDepreciation.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtInsuranceDepreciation.Location = new System.Drawing.Point(229, 121);
+            this.txtInsuranceDepreciation.Name = "txtInsuranceDepreciation";
+            this.txtInsuranceDepreciation.Size = new System.Drawing.Size(210, 26);
+            this.txtInsuranceDepreciation.TabIndex = 14;
             // 
             // label7
             // 
@@ -143,13 +143,13 @@
             this.label7.TabIndex = 13;
             this.label7.Text = "Insurance Depreciation";
             // 
-            // tbMileage
+            // txtMileage
             // 
-            this.tbMileage.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbMileage.Location = new System.Drawing.Point(229, 72);
-            this.tbMileage.Name = "tbMileage";
-            this.tbMileage.Size = new System.Drawing.Size(210, 26);
-            this.tbMileage.TabIndex = 12;
+            this.txtMileage.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtMileage.Location = new System.Drawing.Point(229, 72);
+            this.txtMileage.Name = "txtMileage";
+            this.txtMileage.Size = new System.Drawing.Size(210, 26);
+            this.txtMileage.TabIndex = 12;
             // 
             // label6
             // 
@@ -160,13 +160,13 @@
             this.label6.TabIndex = 11;
             this.label6.Text = "Mileage";
             // 
-            // tbModel
+            // txtModel
             // 
-            this.tbModel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbModel.Location = new System.Drawing.Point(229, 23);
-            this.tbModel.Name = "tbModel";
-            this.tbModel.Size = new System.Drawing.Size(210, 26);
-            this.tbModel.TabIndex = 10;
+            this.txtModel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtModel.Location = new System.Drawing.Point(229, 23);
+            this.txtModel.Name = "txtModel";
+            this.txtModel.Size = new System.Drawing.Size(210, 26);
+            this.txtModel.TabIndex = 10;
             // 
             // label5
             // 
@@ -177,17 +177,17 @@
             this.label5.TabIndex = 10;
             this.label5.Text = "Model";
             // 
-            // chbxIsNew
+            // ckbtnIsNew
             // 
-            this.chbxIsNew.AutoSize = true;
-            this.chbxIsNew.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.chbxIsNew.Location = new System.Drawing.Point(371, 119);
-            this.chbxIsNew.Name = "chbxIsNew";
-            this.chbxIsNew.Size = new System.Drawing.Size(76, 24);
-            this.chbxIsNew.TabIndex = 9;
-            this.chbxIsNew.Text = "Is New";
-            this.chbxIsNew.UseVisualStyleBackColor = true;
-            this.chbxIsNew.CheckedChanged += new System.EventHandler(this.ChbxIsNew_CheckedChanged);
+            this.ckbtnIsNew.AutoSize = true;
+            this.ckbtnIsNew.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ckbtnIsNew.Location = new System.Drawing.Point(371, 119);
+            this.ckbtnIsNew.Name = "ckbtnIsNew";
+            this.ckbtnIsNew.Size = new System.Drawing.Size(76, 24);
+            this.ckbtnIsNew.TabIndex = 9;
+            this.ckbtnIsNew.Text = "Is New";
+            this.ckbtnIsNew.UseVisualStyleBackColor = true;
+            this.ckbtnIsNew.CheckedChanged += new System.EventHandler(this.ChbxIsNew_CheckedChanged);
             // 
             // btnAddRecord
             // 
@@ -218,21 +218,25 @@
             this.ClientSize = new System.Drawing.Size(819, 400);
             this.Controls.Add(this.btnViewAll);
             this.Controls.Add(this.btnAddRecord);
-            this.Controls.Add(this.chbxIsNew);
-            this.Controls.Add(this.pnOldCar);
-            this.Controls.Add(this.tbPurchasePrice);
+            this.Controls.Add(this.ckbtnIsNew);
+            this.Controls.Add(this.pnlOldCar);
+            this.Controls.Add(this.txtPurchasePrice);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.tbMake);
+            this.Controls.Add(this.txtMake);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.cbCarType);
+            this.Controls.Add(this.cmbCarType);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.tbLicensePlate);
+            this.Controls.Add(this.txtLicensePlate);
             this.Controls.Add(this.label1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "AddVehicleForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Add Vehicle Form";
             this.Load += new System.EventHandler(this.AddVehicleForm_Load);
-            this.pnOldCar.ResumeLayout(false);
-            this.pnOldCar.PerformLayout();
+            this.pnlOldCar.ResumeLayout(false);
+            this.pnlOldCar.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -241,21 +245,21 @@
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox tbLicensePlate;
+        private System.Windows.Forms.TextBox txtLicensePlate;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.ComboBox cbCarType;
+        private System.Windows.Forms.ComboBox cmbCarType;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox tbMake;
+        private System.Windows.Forms.TextBox txtMake;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox tbPurchasePrice;
-        private System.Windows.Forms.Panel pnOldCar;
-        private System.Windows.Forms.CheckBox chbxIsNew;
+        private System.Windows.Forms.TextBox txtPurchasePrice;
+        private System.Windows.Forms.Panel pnlOldCar;
+        private System.Windows.Forms.CheckBox ckbtnIsNew;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox tbModel;
+        private System.Windows.Forms.TextBox txtModel;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox tbMileage;
+        private System.Windows.Forms.TextBox txtMileage;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.TextBox tbInsuranceDepreciation;
+        private System.Windows.Forms.TextBox txtInsuranceDepreciation;
         private System.Windows.Forms.Button btnAddRecord;
         private System.Windows.Forms.Button btnViewAll;
     }

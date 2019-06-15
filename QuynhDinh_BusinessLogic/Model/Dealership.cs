@@ -101,6 +101,7 @@ namespace QuynhDinh_BusinessLogic.Model {
             Address = address;
             Email = email;
             Phone = phone;
+            _cars = new List<Car>();
         }
 
         /// <summary>
@@ -111,7 +112,7 @@ namespace QuynhDinh_BusinessLogic.Model {
         public Car FindCarByLicensePlateNo(string licensePlateNo) {
             Car matchingCar = null;
             foreach (Car car in _cars) {
-                if (car.LicensePlateNo == licensePlateNo) {
+                if (car.LicensePlateNo.Equals(licensePlateNo)) {
                     matchingCar = car;
                 }
             }
@@ -129,29 +130,45 @@ namespace QuynhDinh_BusinessLogic.Model {
         /// <param name="model">Serves as an optional parameter of used car model</param>
         /// <param name="mileage">Serves as an optional parameter of used car mileage</param>
         /// <param name="insuranceDep">Serves as an optional parameter of used car's insurance depreciation</param>
-        public void AddCar(string licensePlateNo, string make, CarType carType, float purchasePrice, bool isNew, int model=0, int mileage=0, float insuranceDep=0f) {
+        public void AddCar(string licensePlateNo, string make, CarType carType, float purchasePrice, bool isNew=true, int model=0, int mileage=0, float insuranceDep=0f) {
 
             // Check if the car already exists in dealership's records
             Car car = FindCarByLicensePlateNo(licensePlateNo);
 
             // If there is no matching car, create and insert the car
             // Ensure that each and every car in records is unique and has required license plate number
-            // else throw a new exception
-            if (car != null && (!string.IsNullOrEmpty(licensePlateNo))) {
+            //// else throw a new exception
+            if (car == null && (!string.IsNullOrEmpty(licensePlateNo))) {
                 if (isNew) {
                     car = new NewCar(licensePlateNo, make, carType, purchasePrice);
                 } else {
                     int _curentYear = DateTime.Now.Year;
-                    if ((_curentYear - model) <= 5 && mileage > 500000) {
+                    if (!((_curentYear - model) > 5 || mileage > 500000)) {
                         car = new UsedCar(licensePlateNo, make, carType, purchasePrice, model, mileage, insuranceDep);
                     } else {
-                        throw new Exception("We cannot accept cars that are more than 5 yearas or have a mileage > 500,000Km!");
+                        throw new Exception("We cannot accept cars that are more than 5 years or have a mileage > 500,000Km!");
                     }
                 }
                 _cars.Add(car);
             } else {
                 throw new Exception("Car already exists or invalid car license plate number!");
             }
+        }
+
+        /// <summary>
+        /// Get all car records corresponding to the selected CarType
+        /// </summary>
+        /// <param name="carType">Serves as seeking car type of car</param>
+        /// <returns>Return list of matching cars</returns>
+        public List<Car> GetCarsByCarType(CarType carType) {
+            List<Car> matchingCars = new List<Car>();
+                foreach (Car car in _cars) {
+                    if (car.CarType == carType) {
+                    matchingCars.Add(car);
+                    }
+                }
+
+            return matchingCars;
         }
     }
 }

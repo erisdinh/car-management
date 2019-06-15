@@ -23,107 +23,115 @@
         /// the contents of this method with the code editor.
         /// </summary>
         private void InitializeComponent() {
-            this.lbName = new System.Windows.Forms.Label();
+            this.lblName = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.lbBusinessNumber = new System.Windows.Forms.Label();
+            this.lblBusinessNumber = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.tbAddress = new System.Windows.Forms.RichTextBox();
+            this.txtAddress = new System.Windows.Forms.RichTextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.tbPhone = new System.Windows.Forms.TextBox();
+            this.txtPhone = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.tbEmail = new System.Windows.Forms.TextBox();
+            this.txtEmail = new System.Windows.Forms.TextBox();
             this.btnEdit = new System.Windows.Forms.Button();
             this.btnOK = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // lbName
+            // lblName
             // 
-            this.lbName.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.lblName.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.lbName.Font = new System.Drawing.Font("Modern No. 20", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbName.Location = new System.Drawing.Point(12, 9);
-            this.lbName.Name = "lbName";
-            this.lbName.Size = new System.Drawing.Size(482, 81);
-            this.lbName.TabIndex = 0;
-            this.lbName.Text = "Dealership Name";
-            this.lbName.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblName.Font = new System.Drawing.Font("Modern No. 20", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblName.Location = new System.Drawing.Point(12, 33);
+            this.lblName.Name = "lblName";
+            this.lblName.Size = new System.Drawing.Size(510, 81);
+            this.lblName.TabIndex = 0;
+            this.lblName.Text = "Dealership Name";
+            this.lblName.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(50, 106);
+            this.label1.Location = new System.Drawing.Point(32, 137);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(126, 18);
             this.label1.TabIndex = 1;
             this.label1.Text = "Business Number";
             // 
-            // lbBusinessNumber
+            // lblBusinessNumber
             // 
-            this.lbBusinessNumber.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbBusinessNumber.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lbBusinessNumber.Location = new System.Drawing.Point(186, 104);
-            this.lbBusinessNumber.Name = "lbBusinessNumber";
-            this.lbBusinessNumber.Size = new System.Drawing.Size(260, 23);
-            this.lbBusinessNumber.TabIndex = 2;
-            this.lbBusinessNumber.Text = "BusinessNumber";
-            this.lbBusinessNumber.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblBusinessNumber.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.lblBusinessNumber.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblBusinessNumber.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblBusinessNumber.Location = new System.Drawing.Point(168, 135);
+            this.lblBusinessNumber.Name = "lblBusinessNumber";
+            this.lblBusinessNumber.Size = new System.Drawing.Size(326, 23);
+            this.lblBusinessNumber.TabIndex = 2;
+            this.lblBusinessNumber.Text = "BusinessNumber";
+            this.lblBusinessNumber.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // label3
             // 
+            this.label3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(50, 256);
+            this.label3.Location = new System.Drawing.Point(36, 349);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(126, 20);
             this.label3.TabIndex = 3;
             this.label3.Text = "Address";
             // 
-            // tbAddress
+            // txtAddress
             // 
-            this.tbAddress.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbAddress.Location = new System.Drawing.Point(186, 256);
-            this.tbAddress.Name = "tbAddress";
-            this.tbAddress.Size = new System.Drawing.Size(260, 96);
-            this.tbAddress.TabIndex = 4;
-            this.tbAddress.Text = "";
+            this.txtAddress.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtAddress.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtAddress.Location = new System.Drawing.Point(172, 349);
+            this.txtAddress.Name = "txtAddress";
+            this.txtAddress.Size = new System.Drawing.Size(322, 96);
+            this.txtAddress.TabIndex = 4;
+            this.txtAddress.Text = "";
             // 
             // label2
             // 
+            this.label2.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(50, 147);
+            this.label2.Location = new System.Drawing.Point(36, 202);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(126, 18);
             this.label2.TabIndex = 5;
             this.label2.Text = "Phone Number";
             // 
-            // tbPhone
+            // txtPhone
             // 
-            this.tbPhone.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbPhone.Location = new System.Drawing.Point(186, 148);
-            this.tbPhone.Name = "tbPhone";
-            this.tbPhone.Size = new System.Drawing.Size(260, 26);
-            this.tbPhone.TabIndex = 6;
+            this.txtPhone.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.txtPhone.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtPhone.Location = new System.Drawing.Point(172, 203);
+            this.txtPhone.Name = "txtPhone";
+            this.txtPhone.Size = new System.Drawing.Size(322, 26);
+            this.txtPhone.TabIndex = 6;
             // 
             // label4
             // 
+            this.label4.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(50, 200);
+            this.label4.Location = new System.Drawing.Point(36, 274);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(126, 18);
             this.label4.TabIndex = 7;
             this.label4.Text = "Email";
             // 
-            // tbEmail
+            // txtEmail
             // 
-            this.tbEmail.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbEmail.Location = new System.Drawing.Point(186, 200);
-            this.tbEmail.Name = "tbEmail";
-            this.tbEmail.Size = new System.Drawing.Size(260, 26);
-            this.tbEmail.TabIndex = 8;
+            this.txtEmail.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.txtEmail.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtEmail.Location = new System.Drawing.Point(172, 274);
+            this.txtEmail.Name = "txtEmail";
+            this.txtEmail.Size = new System.Drawing.Size(322, 26);
+            this.txtEmail.TabIndex = 8;
             // 
             // btnEdit
             // 
-            this.btnEdit.Location = new System.Drawing.Point(257, 374);
+            this.btnEdit.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnEdit.Location = new System.Drawing.Point(301, 469);
             this.btnEdit.Name = "btnEdit";
             this.btnEdit.Size = new System.Drawing.Size(84, 30);
             this.btnEdit.TabIndex = 9;
@@ -133,7 +141,8 @@
             // 
             // btnOK
             // 
-            this.btnOK.Location = new System.Drawing.Point(362, 374);
+            this.btnOK.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnOK.Location = new System.Drawing.Point(410, 469);
             this.btnOK.Name = "btnOK";
             this.btnOK.Size = new System.Drawing.Size(84, 30);
             this.btnOK.TabIndex = 10;
@@ -145,19 +154,19 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.AutoSize = true;
-            this.ClientSize = new System.Drawing.Size(506, 421);
+            this.ClientSize = new System.Drawing.Size(534, 511);
             this.Controls.Add(this.btnOK);
             this.Controls.Add(this.btnEdit);
-            this.Controls.Add(this.tbEmail);
+            this.Controls.Add(this.txtEmail);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.tbPhone);
+            this.Controls.Add(this.txtPhone);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.tbAddress);
+            this.Controls.Add(this.txtAddress);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.lbBusinessNumber);
+            this.Controls.Add(this.lblBusinessNumber);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.lbName);
+            this.Controls.Add(this.lblName);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "DealershipForm";
@@ -171,15 +180,15 @@
 
         #endregion
 
-        private System.Windows.Forms.Label lbName;
+        private System.Windows.Forms.Label lblName;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label lbBusinessNumber;
+        private System.Windows.Forms.Label lblBusinessNumber;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.RichTextBox tbAddress;
+        private System.Windows.Forms.RichTextBox txtAddress;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox tbPhone;
+        private System.Windows.Forms.TextBox txtPhone;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox tbEmail;
+        private System.Windows.Forms.TextBox txtEmail;
         private System.Windows.Forms.Button btnEdit;
         private System.Windows.Forms.Button btnOK;
     }

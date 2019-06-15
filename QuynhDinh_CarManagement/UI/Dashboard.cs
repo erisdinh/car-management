@@ -16,22 +16,26 @@ namespace QuynhDinh_CarManagement.UI {
 
         public Dashboard() {
             InitializeComponent();
-            _dealership = new Dealership("BUSI0000", "QD Car Dealership", "1470 Trafalgar Road", "customer_service@qdcardealership.com", 123456789);
+            _dealership = new Dealership("BUSI0000", "QD Car Dealership", "1430 Trafalgar Road, Oakville, ON", "customer_service@qdcardealership.ca", 647850850);
         }
 
-        private void BtnAddVehicle_Click(object sender, EventArgs e) {
+        private void AddVehicle(object sender, EventArgs e) {
             AddVehicleForm addVehicleForm = new AddVehicleForm(_dealership);
             addVehicleForm.ShowDialog();
         }
 
-        private void BtnOpenDealership_Click(object sender, EventArgs e) {
+        private void EditDealership(object sender, EventArgs e) {
             DealershipForm dealershipForm = new DealershipForm(_dealership);
             dealershipForm.ShowDialog();
         }
 
-        private void BtnViewReport_Click(object sender, EventArgs e) {
+        private void ViewReport(object sender, EventArgs e) {
             ReportForm reportForm = new ReportForm(_dealership);
             reportForm.ShowDialog();
+        }
+
+        private void ExitToolStripMenuItem_Click(object sender, EventArgs e) {
+            Application.Exit();
         }
     }
 }

@@ -21,7 +21,10 @@ namespace QuynhDinh_BusinessLogic.Model {
         public int Model {
             get { return _model; }
             set {
-                if (value < 0) {
+
+                // If the user end a model year which is greater than the current year
+                int currentYear = DateTime.Now.Year;
+                if (value < 0 || (currentYear - value) < 0) {
                     throw new Exception("Invalid model!");
                 } else {
                     _model = value;
@@ -52,7 +55,7 @@ namespace QuynhDinh_BusinessLogic.Model {
                 if (value < 0) {
                     throw new Exception("Invalid insurance depreciation!");
                 } else {
-                    _insuranceDepreciation = value;
+                    _insuranceDepreciation = (float)value/100;
                 }
             }
         }
@@ -65,8 +68,8 @@ namespace QuynhDinh_BusinessLogic.Model {
                 int _curentYear = DateTime.Now.Year;
                 int yearDifference = _curentYear - Model;
                 float yearDepreciation = yearDifference * 0.1f;
-                float mileageDepreciation = Mileage * 0.009f;
-                _totalDepreciation = yearDepreciation + mileageDepreciation;
+                float mileageDepreciation = (float)(Mileage/10000) * 0.009f;
+                _totalDepreciation = yearDepreciation + mileageDepreciation + _insuranceDepreciation;
                 return _totalDepreciation;
             }
         }
@@ -83,6 +86,9 @@ namespace QuynhDinh_BusinessLogic.Model {
         /// <param name="insuranceDepreciation">Serves as insurance depreciation parameter for used car object</param>
         public UsedCar(string licensePlateNo, string make, CarType carType, float purchasePrice, int model, int mileage, float insuranceDepreciation)
             : base(licensePlateNo, make, carType, purchasePrice) {
+            Model = model;
+            Mileage = mileage;
+            InsuranceDepreciation = insuranceDepreciation;
         }
     }
 }

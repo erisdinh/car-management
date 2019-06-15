@@ -30,10 +30,12 @@
   <HelpKINode Title="Dealership.Dealership constructor" Url="html/6aa0e43d-e8d9-2e34-74d2-b5d25c87f3c1.htm" />
   <HelpKINode Title="Dealership.Email property" Url="html/02793807-b6c4-5fdd-f3b9-713503869bf9.htm" />
   <HelpKINode Title="Dealership.FindCarByLicensePlateNo method" Url="html/9fe6fe07-8d4c-4401-77e6-628010235bdb.htm" />
+  <HelpKINode Title="Dealership.GetCarsByCarType method" Url="html/6328799e-cdee-c6a9-fe4e-ae764ac0e0af.htm" />
   <HelpKINode Title="Dealership.Name property" Url="html/b00318c0-719b-c623-5d19-adc10eedfe0e.htm" />
   <HelpKINode Title="Dealership.Phone property" Url="html/2139b2b7-8316-0384-ad64-b520ee8d3bd2.htm" />
   <HelpKINode Title="Email property" Url="html/02793807-b6c4-5fdd-f3b9-713503869bf9.htm" />
   <HelpKINode Title="FindCarByLicensePlateNo method" Url="html/9fe6fe07-8d4c-4401-77e6-628010235bdb.htm" />
+  <HelpKINode Title="GetCarsByCarType method" Url="html/6328799e-cdee-c6a9-fe4e-ae764ac0e0af.htm" />
   <HelpKINode Title="Hatchback enumeration member" Url="html/f840ea4c-e4c4-fca6-5143-d542227a94b1.htm" />
   <HelpKINode Title="InsuranceDepreciation property" Url="html/3785031b-4d64-de4d-55f1-f5039d4718f3.htm" />
   <HelpKINode Title="LicensePlateNo property" Url="html/b688ed90-1f60-2220-f8bf-0a847ebda081.htm" />

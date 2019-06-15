@@ -20,27 +20,33 @@ namespace QuynhDinh_CarManagement.UI {
         }
 
         private void AddVehicleForm_Load(object sender, EventArgs e) {
-            cbCarType.DataSource = Enum.GetValues(typeof(CarType));
-            pnOldCar.Enabled = false;
+            cmbCarType.DataSource = Enum.GetValues(typeof(CarType));
+            pnlOldCar.Enabled = false;
+            ckbtnIsNew.Checked = true;
         }
 
         private void BtnViewAll_Click(object sender, EventArgs e) {
-
+            ReportForm reportForm = new ReportForm(_dealership);
+            reportForm.ShowDialog();
+            this.Hide();
         }
 
         private void ChbxIsNew_CheckedChanged(object sender, EventArgs e) {
-            if (chbxIsNew.Checked) {
-                pnOldCar.Enabled = true;
+            if (ckbtnIsNew.Checked) {
+                pnlOldCar.Enabled = false;
             } else {
-                pnOldCar.Enabled = false;
+                pnlOldCar.Enabled = true;
             }
         }
 
         private void BtnAddRecord_Click(object sender, EventArgs e) {
             try {
-                _dealership.AddCar(tbLicensePlate.Text, tbMake.Text, (CarType)cbCarType.SelectedItem, (float)Convert.ToDouble(tbPurchasePrice.Text), 
-                    chbxIsNew.Checked, Convert.ToInt32(tbModel.Text), Convert.ToInt32(tbMileage.Text), 
-                    (int) Convert.ToInt32(tbInsuranceDepreciation.Text));
+                if (ckbtnIsNew.Checked) {
+                    _dealership.AddCar(txtLicensePlate.Text, txtMake.Text, (CarType)cmbCarType.SelectedItem, float.Parse(txtPurchasePrice.Text));
+                } else {
+                    _dealership.AddCar(txtLicensePlate.Text, txtMake.Text, (CarType)cmbCarType.SelectedItem, float.Parse(txtPurchasePrice.Text), ckbtnIsNew.Checked, int.Parse(txtModel.Text), int.Parse(txtMileage.Text), float.Parse(txtInsuranceDepreciation.Text));
+                }
+                MessageBox.Show("Added record!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
             } catch (Exception ex) {
                 MessageBox.Show(ex.Message);
             }

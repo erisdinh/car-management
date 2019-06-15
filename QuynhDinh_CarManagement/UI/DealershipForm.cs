@@ -20,21 +20,21 @@ namespace QuynhDinh_CarManagement.UI {
         }
 
         private void DealershipForm_Load(object sender, EventArgs e) {
-            lbName.Text = _dealership.Name;
-            lbBusinessNumber.Text = _dealership.BusinessNumber;
-            tbPhone.Text = _dealership.Phone.ToString();
-            tbEmail.Text = _dealership.Email;
-            tbAddress.Text = _dealership.Address;
+            lblName.Text = _dealership.Name;
+            lblBusinessNumber.Text = _dealership.BusinessNumber;
+            txtPhone.Text = _dealership.Phone.ToString();
+            txtEmail.Text = _dealership.Email;
+            txtAddress.Text = _dealership.Address;
 
-            tbPhone.Enabled = false;
-            tbEmail.Enabled = false;
-            tbAddress.Enabled = false;
+            txtPhone.Enabled = false;
+            txtEmail.Enabled = false;
+            txtAddress.Enabled = false;
         }
 
         private void BtnEdit_Click(object sender, EventArgs e) {
-            tbPhone.Enabled = true;
-            tbEmail.Enabled = true;
-            tbAddress.Enabled = true;
+            txtPhone.Enabled = true;
+            txtEmail.Enabled = true;
+            txtAddress.Enabled = true;
 
             btnOK.Text = "Save";
         }
@@ -45,13 +45,13 @@ namespace QuynhDinh_CarManagement.UI {
                 this.Hide();
             } else {
                 try {
-                    _dealership.Phone = Convert.ToInt32(tbPhone.Text);
-                    _dealership.Email = tbEmail.Text;
-                    _dealership.Address = tbAddress.Text;
+                    _dealership.Phone = Convert.ToInt32(txtPhone.Text);
+                    _dealership.Email = txtEmail.Text;
+                    _dealership.Address = txtAddress.Text;
 
-                    tbPhone.Enabled = false;
-                    tbEmail.Enabled = false;
-                    tbAddress.Enabled = false;
+                    txtPhone.Enabled = false;
+                    txtEmail.Enabled = false;
+                    txtAddress.Enabled = false;
 
                     btnOK.Text = "OK";
                     MessageBox.Show("Saved", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
